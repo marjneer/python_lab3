@@ -10,8 +10,8 @@ from smartscan_registration_module import generate_code, fetch_users, RegisterUs
 # In[2]:
 
 
-generate_code('marita','abc@gmail.com','temp1')
-generate_code("glory","xyz@gmail.com",'temp2')
+generate_code('alex','abc@gmail.com','temp1')
+generate_code("gloria","xyz@gmail.com",'temp2')
 
 
 # In[3]:
@@ -24,7 +24,7 @@ RegisterUserFromSmartScan('temp2')
 # In[4]:
 
 
-generate_code("maria" ,"boby,123@gmail.com",'temp3')
+generate_code("mariana" ,"bob,123@gmail.com",'temp3')
 RegisterUserFromSmartScan('temp3')
 
 
